@@ -1,6 +1,6 @@
 //
-//  bugsReportTests.m
-//  bugsReportTests
+//  bouncingNavigationBarTests.m
+//  bouncingNavigationBarTests
 //
 //  Created by James Tang on 3/9/13.
 //  Copyright (c) 2013 James Tang. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface bugsReportTests : XCTestCase
+@interface bouncingNavigationBarTests : XCTestCase
 
 @end
 
-@implementation bugsReportTests
+@implementation bouncingNavigationBarTests
 
 - (void)setUp
 {

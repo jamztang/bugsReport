@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  bugsReport
+//  bouncingNavigationBar
 //
 //  Created by James Tang on 3/9/13.
 //  Copyright (c) 2013 James Tang. All rights reserved.
