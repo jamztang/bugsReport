@@ -16,29 +16,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Title:
-
-Present or Dimiss View Controllers with 'Flip Horizontal' animation cause jumpy navigation bar
-
-
-Problem Description:
-
-The navigationBar title and texture is trying to accomodate the offset of the status bar while animating, and after that it bounces back to the expected place.
-
-
-Step to Reproduce:
-
-1. Present a navigation view controller with the Flip Horizontal animation (Press the Flip button in this project)
-
-
-Expected Result:
-
-The navigation bar title and texture should animate smoothly without bouncing
-
-
-Version:
-Xcode 5.0 preview (5A11365x)
-iOS 7.0 (simulator)</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
