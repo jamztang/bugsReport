@@ -1,0 +1,4 @@
+bugsReport
+==========
+
+Bugs collection
