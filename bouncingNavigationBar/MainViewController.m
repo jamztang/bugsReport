@@ -27,15 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    UITextView *textView = (id)[self.view viewWithTag:100];
 
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"README" withExtension:@"md"];
-    NSString *readme = [NSString stringWithContentsOfURL:url
-                                                encoding:NSUTF8StringEncoding
-                                                   error:NULL];
-    
-    textView.text = readme;
 }
 
 - (void)didReceiveMemoryWarning
