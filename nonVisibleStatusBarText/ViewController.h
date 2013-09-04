@@ -12,4 +12,9 @@
 
 - (IBAction)unwindSegue:(UIStoryboardSegue *)sender;
 
+
+@end
+
+@interface NVSBContainerViewController : UIViewController
+
 @end

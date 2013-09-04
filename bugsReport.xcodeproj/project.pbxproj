@@ -17,6 +17,9 @@
 		1A8E6E3717D5DBDC00D33B7F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8E6E3617D5DBDC00D33B7F /* Storyboard.storyboard */; };
 		1A8E6E3A17D5DCDE00D33B7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E6E3917D5DCDE00D33B7F /* MainViewController.m */; };
 		1A8E6E3E17D5E03800D33B7F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A8E6E3D17D5E03800D33B7F /* README.md */; };
+		1AAB3F0717D715AB00E3091C /* BRAutoLoadTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3F0617D715AB00E3091C /* BRAutoLoadTextView.m */; };
+		1AAB3F0817D7168100E3091C /* BRAutoLoadTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3F0617D715AB00E3091C /* BRAutoLoadTextView.m */; };
+		1AAB3F0A17D716B500E3091C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB3F0917D716B500E3091C /* README.md */; };
 		1AE3A4BB17D6F563005487FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E6DD917D5DB6200D33B7F /* Foundation.framework */; };
 		1AE3A4BC17D6F563005487FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E6DDB17D5DB6200D33B7F /* CoreGraphics.framework */; };
 		1AE3A4BD17D6F563005487FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E6DDD17D5DB6200D33B7F /* UIKit.framework */; };
@@ -45,6 +48,9 @@
 		1A8E6E3817D5DCDE00D33B7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1A8E6E3917D5DCDE00D33B7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1A8E6E3D17D5E03800D33B7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1AAB3F0517D715AB00E3091C /* BRAutoLoadTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAutoLoadTextView.h; sourceTree = "<group>"; };
+		1AAB3F0617D715AB00E3091C /* BRAutoLoadTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAutoLoadTextView.m; sourceTree = "<group>"; };
+		1AAB3F0917D716B500E3091C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1AE3A4BA17D6F563005487FB /* nonVisibleStatusBarText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nonVisibleStatusBarText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE3A4C017D6F563005487FB /* nonVisibleStatusBarText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nonVisibleStatusBarText-Info.plist"; sourceTree = "<group>"; };
 		1AE3A4C217D6F563005487FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		1A8E6DCD17D5DB6200D33B7F = {
 			isa = PBXGroup;
 			children = (
+				1AAB3F0417D7157900E3091C /* shared */,
 				1A8E6E1017D5DBC400D33B7F /* bouncingNavigationBar */,
 				1AE3A4BE17D6F563005487FB /* nonVisibleStatusBarText */,
 				1A8E6DD817D5DB6200D33B7F /* Frameworks */,
@@ -138,6 +145,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1AAB3F0417D7157900E3091C /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB3F0517D715AB00E3091C /* BRAutoLoadTextView.h */,
+				1AAB3F0617D715AB00E3091C /* BRAutoLoadTextView.m */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
 		1AE3A4BE17D6F563005487FB /* nonVisibleStatusBarText */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +164,7 @@
 				1AE3A4CE17D6F563005487FB /* ViewController.m */,
 				1AE3A4D017D6F563005487FB /* Images.xcassets */,
 				1AE3A4BF17D6F563005487FB /* Supporting Files */,
+				1AAB3F0917D716B500E3091C /* README.md */,
 			);
 			path = nonVisibleStatusBarText;
 			sourceTree = "<group>";
@@ -246,6 +263,7 @@
 			files = (
 				1AE3A4D117D6F563005487FB /* Images.xcassets in Resources */,
 				1AE3A4C317D6F563005487FB /* InfoPlist.strings in Resources */,
+				1AAB3F0A17D716B500E3091C /* README.md in Resources */,
 				1AE3A4CC17D6F563005487FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAB3F0717D715AB00E3091C /* BRAutoLoadTextView.m in Sources */,
 				1A8E6E1B17D5DBC400D33B7F /* AppDelegate.m in Sources */,
 				1A8E6E3A17D5DCDE00D33B7F /* MainViewController.m in Sources */,
 				1A8E6E1717D5DBC400D33B7F /* main.m in Sources */,
@@ -267,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAB3F0817D7168100E3091C /* BRAutoLoadTextView.m in Sources */,
 				1AE3A4CF17D6F563005487FB /* ViewController.m in Sources */,
 				1AE3A4C917D6F563005487FB /* AppDelegate.m in Sources */,
 				1AE3A4C517D6F563005487FB /* main.m in Sources */,
@@ -463,6 +483,7 @@
 				1AE3A4E517D6F563005487FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

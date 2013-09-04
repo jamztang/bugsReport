@@ -15,15 +15,27 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQq-Rx-n52" customClass="BRAutoLoadTextView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="filename" value="README.md"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="UPH-Cc-Bp8">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="n8R-wq-IpR">
+                        <barButtonItem key="leftBarButtonItem" title="Abnormal" id="n8R-wq-IpR">
                             <connections>
                                 <segue destination="E7M-Qu-Bip" kind="modal" id="bur-T0-x5z"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="igM-S4-axY">
+                        <barButtonItem key="rightBarButtonItem" title="Normal" id="igM-S4-axY">
                             <connections>
                                 <segue destination="oBJ-1I-pTu" kind="modal" id="9mC-TN-lec"/>
                             </connections>
@@ -100,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1618" y="69"/>
         </scene>
-        <!--View Controller-->
+        <!--Container View Controller-->
         <scene sceneID="kgi-0T-kHc">
             <objects>
-                <viewController id="E7M-Qu-Bip" sceneMemberID="viewController">
+                <viewController id="E7M-Qu-Bip" customClass="NVSBContainerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sbc-8y-03y"/>
                         <viewControllerLayoutGuide type="bottom" id="oYL-Lo-2HI"/>

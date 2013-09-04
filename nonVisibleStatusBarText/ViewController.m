@@ -31,3 +31,13 @@
 }
 
 @end
+
+@implementation NVSBContainerViewController
+
+//// By implementing the preferredStatusBarStyle, you'll be able to
+//// show the correct status bar text color in black + /w container mode
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    return UIStatusBarStyleLightContent;
+//}
+
+@end
