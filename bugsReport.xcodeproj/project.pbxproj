@@ -151,7 +151,7 @@
 				1AAB3F0517D715AB00E3091C /* BRAutoLoadTextView.h */,
 				1AAB3F0617D715AB00E3091C /* BRAutoLoadTextView.m */,
 			);
-			name = shared;
+			path = shared;
 			sourceTree = "<group>";
 		};
 		1AE3A4BE17D6F563005487FB /* nonVisibleStatusBarText */ = {
