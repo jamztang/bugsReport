@@ -28,8 +28,8 @@ The status bar should use white text
 
 # Version
 
-Xcode 5.0 preview (5A11365x)
-iOS 7.0 (simulator)
+Xcode 5.0 preview (5A11365x) iOS 7.0 (simulator)
+Xcode 5.0 GM (5A1412) iOS 7.0 (simulator)
 
 
 Resolve instruction

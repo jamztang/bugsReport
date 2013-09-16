@@ -23,5 +23,5 @@ The navigation bar title and texture should animate smoothly without bouncing
 
 ## Version
 
-Xcode 5.0 preview (5A11365x)
-iOS 7.0 (simulator)
+Xcode 5.0 preview (5A11365x) iOS 7.0 (simulator)
+Xcode 5.0 GM (5A1412) iOS 7.0 (simulator)
