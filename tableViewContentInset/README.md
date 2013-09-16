@@ -27,9 +27,9 @@ The rows should be rendered nicely without offset
 
 # Version (Defected)
 
-Xcode 5.0 preview (5A11365x) iOS 7.0 (simulator) -- see wrong.png
+Xcode 5.0 preview (5A11365x) iOS 7.0 (simulator) -- see ![wrong.png](https://raw.github.com/mystcolor/bugsReport/master/tableViewContentInset/wrong.png)
 
 
 # Resolved
 
-Xcode 5.0 GM (5A1412) iOS 7.0 (simulator) -- see expected.png
+Xcode 5.0 GM (5A1412) iOS 7.0 (simulator) -- see ![expected.png](https://raw.github.com/mystcolor/bugsReport/master/tableViewContentInset/expected.png)
